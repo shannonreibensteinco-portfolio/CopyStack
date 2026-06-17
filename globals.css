@@ -1,0 +1,46 @@
+:root {
+  --bg: #faf9f6;
+  --card: #ffffff;
+  --border: #e4e0d8;
+  --border-soft: #ede9e0;
+  --ink: #1f1c16;
+  --ink-soft: #6b6458;
+  --accent: #b5481f;
+  --accent-soft: #f4e3d8;
+  --info: #3a5a6b;
+  --info-soft: #e3eef2;
+  --good: #3f6b4a;
+  --good-soft: #e6f0e8;
+  --danger-soft: #fbeae5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.sans {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+textarea {
+  font-family: Helvetica, Arial, sans-serif;
+}
